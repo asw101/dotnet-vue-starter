@@ -32,5 +32,5 @@ WORKDIR /App
 COPY --from=build-env /App/server/out .
 EXPOSE 80
 
-ENTRYPOINT ["dotnet", "dotnet_vue_starter.dll"]
+ENTRYPOINT ["dotnet", "dotnet-vue-starter.dll"]
 
